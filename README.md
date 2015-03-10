@@ -5,7 +5,9 @@ A program to demonstrate Spring Dependency Injection. One with  Annotations and 
 
 
 To execute the program,
-    Go to the folder where pom.xml file is available ( Here the root dir- helloworld-app) Run the following commands:
+    Go to the folder where pom.xml file is available and run the following commands:
+
+mvn clean install ( To get all the required dependencies )
 
 mvn compile ( To compile) 
 
