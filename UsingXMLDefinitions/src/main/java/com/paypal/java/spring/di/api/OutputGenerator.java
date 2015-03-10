@@ -1,4 +1,4 @@
-package com.paypal.java.api;
+package com.paypal.java.spring.di.api;
 
 public interface OutputGenerator {
 	public void JSONGenerator(String jsonString);

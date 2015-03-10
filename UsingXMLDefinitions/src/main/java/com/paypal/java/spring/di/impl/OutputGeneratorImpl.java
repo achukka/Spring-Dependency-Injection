@@ -1,6 +1,6 @@
-package com.paypal.java.impl;
+package com.paypal.java.spring.di.impl;
 
-import com.paypal.java.api.OutputGenerator;
+import com.paypal.java.spring.di.api.OutputGenerator;
 
 public class OutputGeneratorImpl implements OutputGenerator {
 

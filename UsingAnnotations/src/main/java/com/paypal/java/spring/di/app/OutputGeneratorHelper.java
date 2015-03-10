@@ -1,8 +1,14 @@
-package com.paypal.java.app;
+package com.paypal.java.spring.di.app;
 
-import com.paypal.java.api.OutputGenerator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import com.paypal.java.spring.di.api.OutputGenerator;
+
+@Service
 public class OutputGeneratorHelper {
+
+	public @Autowired
 	OutputGenerator outputGenerator;
 
 	String xmlString = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n"
@@ -11,8 +17,8 @@ public class OutputGeneratorHelper {
 	String jsonString = "{\"num\":100,  \"name\":\"foo\"}";
 
 	public void generateOutput() {
-		outputGenerator.JSONGenerator(jsonString);
-		outputGenerator.XMLGenerator(xmlString);
+		outputGenerator.jsonGenerator(jsonString);
+		outputGenerator.xmlGenerator(xmlString);
 	}
 
 	// Via Constructor

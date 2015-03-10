@@ -1,4 +1,4 @@
-package com.paypal.java.app;
+package com.paypal.java.spring.di.app;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
